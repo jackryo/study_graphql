@@ -14,3 +14,9 @@ $ asdf install ruby 3.0.0
 ```sh
 $ echo 'legacy_version_file = yes' > ~/.asdfrc
 ```
+
+## rails
+
+```sh
+gem install bundler rails
+```
