@@ -20,3 +20,10 @@ $ echo 'legacy_version_file = yes' > ~/.asdfrc
 ```sh
 gem install bundler rails
 ```
+
+## mysql
+
+```sh
+brew install mysql
+mysql.server start
+```
