@@ -1,24 +1,29 @@
-# README
+# How to GraphQL (ruby)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# settings
 
-Things you may want to cover:
+## ruby
 
-* Ruby version
+```sh
+$ asdf plugin add ruby
+$ asdf install ruby 3.0.0
+```
 
-* System dependencies
+### for .ruby-version
 
-* Configuration
+```sh
+$ echo 'legacy_version_file = yes' > ~/.asdfrc
+```
 
-* Database creation
+## rails
 
-* Database initialization
+```sh
+gem install bundler rails
+```
 
-* How to run the test suite
+## mysql
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```sh
+brew install mysql
+mysql.server start
+```
